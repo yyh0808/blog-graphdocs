@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'NebulaGraph 图可视化设计规范',
+  tagline: '图可视化设计规范是用来描述图数据库中可视化产品的图组件实用规范',
   url: 'https://docs.cifangbifang.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -22,13 +22,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/yyh0808/blog-graphdocs/tree/master/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/yyh0808/blog-graphdocs/tree/master/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,7 +41,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'NebulaGraph 图可视化设计规范',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -55,7 +55,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/yyh0808/blog-graphdocs',
             label: 'GitHub',
             position: 'right',
           },
@@ -77,16 +77,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '官方论坛',
+                href: 'https://discuss.nebula-graph.com.cn',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '官方博客',
+                href: 'https://www.nebula-graph.com.cn/posts',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '官方Twitter',
+                href: 'https://twitter.com/NebulaGraph',
               },
             ],
           },
@@ -99,12 +99,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/yyh0808/blog-graphdocs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Xiaolang Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
