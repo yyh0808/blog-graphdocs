@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            NebulaGraph Graph Components - 15min 🚀
+            开始阅读 🔍
           </Link>
         </div>
       </div>
