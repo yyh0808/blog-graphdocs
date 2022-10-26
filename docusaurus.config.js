@@ -4,9 +4,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'NebulaGraph Graph Guidelines',
-  tagline: 'Graph Components + Graph Guidelines ',
-  url: 'http://docs.cifangbifang.com/',
+  title: 'My Site',
+  tagline: 'Dinosaurs are cool',
+  url: 'https://docs.cifangbifang.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,9 +41,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'NebulaGraph Graph Guidelines',
+        title: 'My Site',
         logo: {
-          alt: 'NebulaGraph Logo',
+          alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -99,7 +99,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/vesoft-inc/nebula',
+                href: 'https://github.com/facebook/docusaurus',
               },
             ],
           },
