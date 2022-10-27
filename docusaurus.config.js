@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
   title: 'NebulaGraph 图可视化设计规范',
-  tagline: '图可视化设计规范是用来描述图数据库中可视化产品的图组件实用规范',
+  tagline: '为搭建图数据可视化平台的交互设计规范指南',
   url: 'https://docs.cifangbifang.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'Graph-guideline-basestyle',
+            docId: 'intro',
             position: 'left',
             label: '文档',
           },
