@@ -29,7 +29,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .hero--primary {
   --ifm-hero-background-color: #F2EAFF;
-  --ifm-hero-text-color: var(--ifm-color-primary);
+  --ifm-hero-text-color: linear-gradient(60deg,#0B3FE3,#FB0FAE 70%);
 }
 
 .button--secondary:not(.button--outline) {
