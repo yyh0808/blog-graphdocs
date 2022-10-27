@@ -26,3 +26,20 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+.hero--primary {
+  --ifm-hero-background-color: #F2EAFF;
+  --ifm-hero-text-color: var(--ifm-color-primary);
+}
+
+.button--secondary:not(.button--outline) {
+  --ifm-button-background-color: var(--ifm-color-primary);
+}
+
+.button--secondary {
+  --ifm-button-border-color: var(--ifm-color-primary);
+}
+
+.button.button--secondary {
+  color: var(--ifm-color-white);
+}
