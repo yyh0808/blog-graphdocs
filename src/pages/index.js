@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Giscus from '@giscus/react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -34,22 +35,23 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-        <script src="https://giscus.app/client.js"
-        data-repo="yyh0808/blog-graphdocs"
-        data-repo-id="R_kgDOIQ4c5Q"
-        data-category="General"
-        data-category-id="DIC_kwDOIQ4c5c4CSN9D"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-CN"
-        crossorigin="anonymous"
-        async>
-        </script>
       </main>
+      <Giscus
+      id="comments"
+      repo="yyh0808/blog-graphdocs"
+      repoId="R_kgDOIQ4c5Q"
+      category="General"
+      categoryId="DIC_kwDOIQ4c5c4CSN9D"
+      mapping="pathname"
+      term="Welcome to @giscus/react component!"
+      reactionsEnabled="1"
+      emitMetadata="0"
+      inputPosition="top"
+      theme="preferred_color_scheme"
+      lang="zh-CN"
+      loading="lazy"
+      />
+
     </Layout>
   );
 }
