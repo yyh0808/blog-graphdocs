@@ -28,8 +28,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .hero--primary {
-  --ifm-hero-background-color: #F2EAFF;
-  --ifm-hero-text-color: linear-gradient(60deg,#0B3FE3,#FB0FAE 70%);
+  /*--ifm-hero-background-color: #F2EAFF;*/
+  background:linear-gradient(60deg,#0B3FE3,#FB0FAE 90%);
+  -webkit-background-clip: text;
+  --ifm-hero-text-color: transparent;
 }
 
 .button--secondary:not(.button--outline) {
@@ -38,10 +40,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .button--secondary {
   --ifm-button-border-color: var(--ifm-color-primary);
-}
-
-.button:hover {
-  color: var(--ifm-color-primary-lightest);
+  
 }
 
 .button.button--secondary {
