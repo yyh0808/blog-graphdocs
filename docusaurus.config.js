@@ -43,9 +43,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       announcementBar: {
         id: 'support_us',
         content:
-          '欢迎为开源图可视化设计规范贡献力量！<a target="_blank" rel="noopener noreferrer" href="https://github.com/yyh0808/blog-graphdocs">项目地址</a>',
-        backgroundColor: '#6200EA',
-        textColor: '#ffffff',
+          '🎉 欢迎为开源图可视化设计规范贡献力量！<a target="_blank" rel="noopener noreferrer" href="https://github.com/yyh0808/blog-graphdocs">项目地址🌟</a>',
+        backgroundColor: '#F2EAFF',
+        textColor: '#6200EA',
         isCloseable: false,
       },
       navbar: {
