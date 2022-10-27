@@ -34,6 +34,21 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <script src="https://giscus.app/client.js"
+        data-repo="yyh0808/blog-graphdocs"
+        data-repo-id="R_kgDOIQ4c5Q"
+        data-category="General"
+        data-category-id="DIC_kwDOIQ4c5c4CSN9D"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+        </script>
       </main>
     </Layout>
   );
