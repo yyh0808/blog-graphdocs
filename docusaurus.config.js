@@ -49,11 +49,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Graph-guideline-basestyle',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog', 
+            label: '版本说明', 
+            position: 'left'
+          },
           {
             href: 'https://github.com/yyh0808/blog-graphdocs',
             label: 'GitHub',
@@ -68,8 +72,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '文档',
+                to: '/docs/Graph-guideline-basestyle',
               },
             ],
           },
