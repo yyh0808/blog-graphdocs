@@ -25,5 +25,6 @@
 giscus-widget {
   display: flex;
   margin: auto;
-  max-width: 640px;
+  max-width: 960px;
+  padding: 2rem 0;
 }
