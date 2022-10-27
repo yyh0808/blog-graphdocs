@@ -35,7 +35,6 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
-      </main>
       <Giscus
       id="comments"
       repo="yyh0808/blog-graphdocs"
@@ -51,6 +50,8 @@ export default function Home() {
       lang="zh-CN"
       loading="lazy"
       />
+
+      </main>
 
     </Layout>
   );
