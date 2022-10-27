@@ -40,6 +40,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'support_us',
+        content:
+          '欢迎为开源图可视化设计规范贡献力量！<a target="_blank" rel="noopener noreferrer" href="https://github.com/yyh0808/blog-graphdocs">项目地址</a>',
+        backgroundColor: '#6200EA',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       navbar: {
         title: 'NebulaGraph 图可视化设计规范',
         logo: {
