@@ -40,6 +40,10 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --ifm-button-border-color: var(--ifm-color-primary);
 }
 
+.button:hover {
+  color: var(--ifm-color-primary-lightest);
+}
+
 .button.button--secondary {
   color: var(--ifm-color-white);
 }
