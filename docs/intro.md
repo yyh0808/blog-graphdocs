@@ -6,21 +6,16 @@ sidebar_position: 1
 
 ## 图可视化设计规范的背景
 
-</br>
-
 图可视化设计规范，主要是解决针对图数据的可视化展示的交互规范指南，业界现在大部分图可视化仅做前端的规范定制，没有深度绑定内核的功能说明，在可用性上深度不够，缺乏针对内核功能特性的可视化规范指导建议。
 
 因此本设计规范在进行前端的可视化交互描述的同时，深度绑定 NebulaGraph 内核的一些特性，在功能、交互、使用效果以及设计目的上，都进行了描述，有产品+开发同学的整体思考，欢迎大家一起为开源图规范贡献自己的力量！
 
-</br>
 
 ----
 
-</br>
 
 ## NebulaGraph 产品架构生态
 
-</br>
 
 如果把 NebulaGraph 图数据库比做一辆车，所有周边工具，都是围绕着这辆“车”运行的。而在可视化层面，可视化产品是：NebulaGraph Explorer、NebulaGraph Studio、NebulaGraph Dashboard，图组件主要应用与NebulaGraph Explorer和NebulaGraph Studio中。
 
@@ -29,15 +24,12 @@ sidebar_position: 1
 
 ![image](https://github.com/yyh0808/blog-graphdocs/raw/master/img/intro-架构图.png)
 
-</br>
 
 ----
 
-</br>
 
 ## 什么是图
 
-</br>
 
 图是计算机科学研究的主要领域之一,图能够高效地解决目前存在的诸多问题。
 
