@@ -4,9 +4,16 @@
         <title>NebulaGraph 图可视化设计规范 Blog</title>
         <link>https://docs.cifangbifang.com/blog</link>
         <description>NebulaGraph 图可视化设计规范 Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[v0.1.0版本说明]]></title>
+            <link>https://docs.cifangbifang.com/blog/version</link>
+            <guid>version</guid>
+            <pubDate>Fri, 28 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[NebulaGraph 产品团队发布了第一个图可视化设计规范，目前还在测试中，请多指教～]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://docs.cifangbifang.com/blog/welcome</link>
