@@ -81,7 +81,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             items: [
               {
                 label: '文档',
-                to: '/docs/Graph-guideline-basestyle',
+                to: '/docs/intro',
               },
             ],
           },
