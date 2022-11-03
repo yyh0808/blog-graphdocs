@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # 基础样式
 
-作者：袁艺豪
-
 ----
 
 ## 点（Vertex）
@@ -60,3 +58,6 @@ sidebar_position: 1
 
 #### 边粗细
 ![image](https://github.com/yyh0808/blog-graphdocs/raw/master/img/graph014.png)
+
+
+作者：袁艺豪
