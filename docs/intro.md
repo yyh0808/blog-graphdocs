@@ -10,6 +10,9 @@ sidebar_position: 1
 
 因此本设计规范在进行前端的可视化交互描述的同时，深度绑定 NebulaGraph 内核的一些特性，在功能、交互、使用效果以及设计目的上，都进行了描述，有产品+开发同学的整体思考，欢迎大家一起为开源图规范贡献自己的力量！
 
+![image](https://github.com/yyh0808/blog-graphdocs/raw/master/img/explorer-intro.png)
+
+
 
 ----
 
