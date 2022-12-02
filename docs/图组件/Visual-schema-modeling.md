@@ -16,7 +16,7 @@ UI上
 * 左侧：为建模草图列表，保存用户所有的草图数据，可以通过搜索进行筛选
 * 中间：为草图画布，用户可以通过中间tag栏，拖拽 Tag 到画布中，连接不同 Tag 创建 Edge Type，进行图建模
 * 右侧：为参数、属性的配置面板，用户可以配置每个 Tag、Edge Type 的参数、属性
-![image](https://github.com/yyh0808/blog-graphdocs/raw/master/img/schema-1.png)
+![image](https://github.com/yyh0808/blog-graphdocs/raw/master/img/schema-2.png)
 
 ----
 
