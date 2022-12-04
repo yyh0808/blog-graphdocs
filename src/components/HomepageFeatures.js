@@ -4,32 +4,56 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('../../static/img/undraw_docusaurus_mountain.svg').default,
+    title: '海量数据',
+    Svg: require('../../static/img/image-1.svg').default,
     description: (
       <>
-        NebulaGraph Graph Components was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        支撑图数据库的海量数据可视化展示
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
+    title: '简单易用',
+    Svg: require('../../static/img/image-2.svg').default,
     description: (
       <>
-        NebulaGraph Graph Components lets you focus on your data, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        简单部署，总结大量社区用户使用经验的易用交互体验
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
+    title: '多视图分析',
+    Svg: require('../../static/img/image-3.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. NebulaGraph Graph Components can
-        be extended while reusing the same header and footer.
+        多种视图模式，应对不同图可视化分析需求
+      </>
+    ),
+  },
+  {
+    title: '多主题定制',
+    Svg: require('../../static/img/image-4.svg').default,
+    description: (
+      <>
+        适配各种主题模式，方便嵌入各平台业务系统
+      </>
+    ),
+  },
+  {
+    title: '图组件丰富',
+    Svg: require('../../static/img/image-5.svg').default,
+    description: (
+      <>
+        丰富的图组件，轻松应对图数据分析过程中各种难题
+      </>
+    ),
+  },
+  {
+    title: '灵活可扩展',
+    Svg: require('../../static/img/image-6.svg').default,
+    description: (
+      <>
+        React框架，方便接入业务系统，同时支持对特效的扩展和改造
       </>
     ),
   },

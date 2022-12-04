@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M158 158.5C164.351 158.5 169.5 153.351 169.5 147C169.5 140.649 164.351 135.5 158 135.5C151.649 135.5 146.5 140.649 146.5 147C146.5 153.351 151.649 158.5 158 158.5Z" fill="white" stroke="white" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M158 154C161.866 154 165 150.866 165 147C165 143.134 161.866 140 158 140C154.134 140 151 143.134 151 147C151 150.866 154.134 154 158 154ZM158 157C163.523 157 168 152.523 168 147C168 141.477 163.523 137 158 137C152.477 137 148 141.477 148 147C148 152.523 152.477 157 158 157Z" fill="black"/>
+<circle cx="172" cy="110" r="12.5" fill="#78B7F2" stroke="white" stroke-width="3"/>
+<circle cx="89.5" cy="128.5" r="7" fill="#78B7F2" stroke="white" stroke-width="3"/>
+<circle cx="128" cy="167" r="9.5" fill="black" stroke="white" stroke-width="3"/>
+<circle cx="39" cy="133" r="21.5" fill="#0D8BFF" stroke="white" stroke-width="3"/>
+<path d="M76 23.5C64.1259 23.5 54.5 33.1259 54.5 45C54.5 56.8741 64.1259 66.5 76 66.5C87.8741 66.5 97.5 56.8741 97.5 45C97.5 33.1259 87.8741 23.5 76 23.5Z" fill="white" stroke="white" stroke-width="3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M76 28C66.6112 28 59 35.6112 59 45C59 54.3888 66.6112 62 76 62C85.3888 62 93 54.3888 93 45C93 35.6112 85.3888 28 76 28ZM76 25C64.9543 25 56 33.9543 56 45C56 56.0457 64.9543 65 76 65C87.0457 65 96 56.0457 96 45C96 33.9543 87.0457 25 76 25Z" fill="black"/>
+<circle cx="40.3487" cy="83" r="21.5" transform="rotate(180 40.3487 83)" fill="#78B7F2" stroke="white" stroke-width="3"/>
+<circle cx="128.349" cy="43" r="21.5" transform="rotate(180 128.349 43)" fill="white" stroke="white" stroke-width="3"/>
+<circle cx="128.349" cy="43" r="20" transform="rotate(180 128.349 43)" fill="black"/>
+<path d="M107.5 99.5C104.186 99.5 101.5 102.186 101.5 105.5C101.5 108.814 104.186 111.5 107.5 111.5C110.814 111.5 113.5 108.814 113.5 105.5C113.5 102.186 110.814 99.5 107.5 99.5Z" fill="black" stroke="white" stroke-width="3"/>
+<path d="M163 57.5C153.887 57.5 146.5 64.8873 146.5 74C146.5 83.1127 153.887 90.5 163 90.5C172.113 90.5 179.5 83.1127 179.5 74C179.5 64.8873 172.113 57.5 163 57.5Z" fill="#0D8BFF" stroke="white" stroke-width="3"/>
+<path d="M95 148.5C90.3056 148.5 86.5 152.306 86.5 157C86.5 161.694 90.3056 165.5 95 165.5C99.6944 165.5 103.5 161.694 103.5 157C103.5 152.306 99.6944 148.5 95 148.5Z" fill="#0D8BFF" stroke="white" stroke-width="3"/>
+</svg>

@@ -6,13 +6,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #6200EA;
-  --ifm-color-primary-dark: #6c02ff;
-  --ifm-color-primary-darker: #730eff;
-  --ifm-color-primary-darkest: #8731ff;
-  --ifm-color-primary-light: #9765fe;
-  --ifm-color-primary-lighter: #8951fd;
-  --ifm-color-primary-lightest: #6217fd;
+  --ifm-color-primary: #0D8BFF;
+  --ifm-color-primary-dark: #0961B3;
+  --ifm-color-primary-darker: #0961B3;
+  --ifm-color-primary-darkest: #0961B3;
+  --ifm-color-primary-light: #0D8BFF;
+  --ifm-color-primary-lighter: #0D8BFF;
+  --ifm-color-primary-lightest: #0D8BFF;
   --ifm-code-font-size: 95%;
 }
 
@@ -28,10 +28,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .hero--primary {
-  /*--ifm-hero-background-color: #F2EAFF;*/
-  background:linear-gradient(60deg,#0B3FE3,#FB0FAE 90%);
+  /*--ifm-hero-background-color: #0D8BFF;*/
+  background:linear-gradient(60deg,#000000,#000000 100%);
   -webkit-background-clip: text;
   --ifm-hero-text-color: transparent;
+}
+
+.hero__title {
+  font-weight: 800;
 }
 
 .button--secondary:not(.button--outline) {
