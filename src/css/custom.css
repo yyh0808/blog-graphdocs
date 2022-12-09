@@ -30,12 +30,20 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .hero--primary {
   /*--ifm-hero-background-color: #0D8BFF;*/
   background:linear-gradient(60deg,#000000,#000000 100%);
-  -webkit-background-clip: text;
   --ifm-hero-text-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .hero__title {
   font-weight: 800;
+}
+
+html[data-theme='dark'] .hero__title {
+  color: #ffffff;
+}
+
+html[data-theme='dark']  .hero__subtitle {
+  color: #ffffff;
 }
 
 .button--secondary:not(.button--outline) {

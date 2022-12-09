@@ -26,6 +26,7 @@ function HomepageHeader() {
   );
 }
 
+
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -48,6 +49,7 @@ export default function Home() {
       emitMetadata="0"
       inputPosition="top"
       theme="preferred_color_scheme"
+      // theme="dark_dimmed"
       lang="zh-CN"
       loading="lazy"
       />
@@ -55,3 +57,5 @@ export default function Home() {
     </Layout>
   );
 }
+
+
